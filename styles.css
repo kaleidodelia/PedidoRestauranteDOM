@@ -1,0 +1,30 @@
+body{
+    margin: 30px;
+    background-color: rgba(243, 226, 226, 0.493) ;
+}
+
+input{
+    width: 30px;
+    float: right;
+    }
+
+.bloque{
+    display: block ;
+    margin-bottom: 10px;
+}
+
+.producto{
+    display: inline;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.menu{
+    border: 3px black;
+    width: 175px;
+}
+
+#confirmar{
+    margin-top: 20px;
+}
+

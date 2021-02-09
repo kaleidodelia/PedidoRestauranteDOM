@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <span>
+        <h1>Menú</h1>
+        <p><em>*Atención: sólo puede pedir máximo 15 unidades por producto.</em></p>
+        <div class="menu">
+            <div class="bloque">
+                <div class="producto">Costillas ---- 25€</div>
+                    <input id="costillas" max="15" min="0" type="number" value="0">
+            </div>
+
+            <div class="bloque">
+                <div class="producto">Patatas ------- 6€</div>
+                <input id="patatas" max="15" min="0" type="number" value="0">
+            </div>
+
+            <div class="bloque">
+                <div class="producto">Vino tinto -- 21€</div>
+
+                <input id="vino" max="15" min="0" type="number" value="0">
+
+            </div>
+
+            <div class="bloque">
+                <div class="producto">Postre ------- 18€</div>
+                <input id="postre" max="15" min="0" type="number" value="0">
+
+                  
+                </div>
+            </div>
+
+            <button id="confirmar" type="submit">Confirmar pedido</button>
+        </span>
+
+        <div>
+            <h2>Cuenta</h2>
+            <div id="cuenta">
+
+            </div>
+        </div>
+    
+
+<script src="index.js"></script>
+<script src="menu.js"></script>
+</body>
+</html>
